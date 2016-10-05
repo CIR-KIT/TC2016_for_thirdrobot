@@ -1,0 +1,12 @@
+- git:
+    local-name: ira_laser_tools
+    uri: https://github.com/iralabdisco/ira_laser_tools.git
+    version: master
+- git:
+    local-name: third_robot_pkg
+    uri: git@github.com:CIR-KIT/third_robot_pkg.git
+    version: master
+- git:
+    local-name: ros_waypoint_generator
+    uri: git@github.com:AriYu/ros_waypoint_generator.git
+    version: master
