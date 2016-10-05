@@ -1,7 +1,7 @@
 - git:
     local-name: ira_laser_tools
-    uri: https://github.com/iralabdisco/ira_laser_tools.git
-    version: master
+    uri: https://github.com/AriYu/ira_laser_tools.git
+    version: fix-eigen3cmake
 - git:
     local-name: third_robot_pkg
     uri: git@github.com:CIR-KIT/third_robot_pkg.git
@@ -9,4 +9,8 @@
 - git:
     local-name: ros_waypoint_generator
     uri: git@github.com:AriYu/ros_waypoint_generator.git
+    version: master
+- git:
+    local-name: hokuyo3d
+    uri: https://github.com/at-wat/hokuyo3d.git
     version: master
