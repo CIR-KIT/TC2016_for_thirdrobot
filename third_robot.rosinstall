@@ -14,3 +14,7 @@
     local-name: hokuyo3d
     uri: https://github.com/at-wat/hokuyo3d.git
     version: master
+- git:
+    local-name: timed_roslaunch
+    uri: https://github.com/MoriKen254/timed_roslaunch.git
+    version: master
