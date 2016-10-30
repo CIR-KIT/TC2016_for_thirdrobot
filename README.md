@@ -1,4 +1,4 @@
-# Tsukuba Challenge 2016
+# Tsukuba Challenge 2016 [![Build Status](https://travis-ci.org/CIR-KIT/TC2016_for_thirdrobot.svg?branch)](https://travis-ci.org/CIR-KIT/TC2016_for_thirdrobot)
 つくばチャレンジ2016用のリポジトリです。  
 GitHub-Flowによる運用を行いたいと思います。  
 
