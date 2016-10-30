@@ -4,11 +4,11 @@
     version: fix-eigen3cmake
 - git:
     local-name: third_robot_pkg
-    uri: https://github.com:CIR-KIT/third_robot_pkg.git
+    uri: https://github.com/CIR-KIT/third_robot_pkg.git
     version: master
 - git:
     local-name: ros_waypoint_generator
-    uri: https://github.com:AriYu/ros_waypoint_generator.git
+    uri: https://github.com/AriYu/ros_waypoint_generator.git
     version: master
 - git:
     local-name: hokuyo3d
