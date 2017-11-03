@@ -1,16 +1,13 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(waypoint_navigator)
 
-## Find catkin macros and libraries
-## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
-## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   actionlib
-  move_base_msgs
-  tf
-  roslib
   laser_geometry
+  move_base_msgs
+  roslib
+  tf
 )
 
 find_package(PkgConfig)
@@ -20,15 +17,12 @@ catkin_package(
   INCLUDE_DIRS include
   # DEPENDS Eigen
 #  LIBRARIES waypoint_navigator
-#  CATKIN_DEPENDS roscpp
+  CATKIN_DEPENDS roscpp actionlib laser_geometry move_base_msgs roslib tf
 )
 
 ###########
 ## Build ##
 ###########
-
-
-# include_directories(include)
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
@@ -40,7 +34,7 @@ add_executable(waypoint_navigator_node src/waypoint_navigator.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(waypoint_navigator_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(waypoint_navigator_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(waypoint_navigator_node
